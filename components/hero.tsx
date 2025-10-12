@@ -47,13 +47,15 @@ export function Hero() {
                                 Prijava na Evaluator
                             </Button>
                         </Link>
-                        <Button
-                            size="lg"
-                            variant="outline"
-                            className="text-base px-8 bg-transparent"
-                        >
-                            Pogledaj rezultate
-                        </Button>
+                        <Link href={"/rezultati"}>
+                            <Button
+                                size="lg"
+                                variant="outline"
+                                className="text-base px-8 bg-transparent"
+                            >
+                                Pogledaj rezultate
+                            </Button>
+                        </Link>
                     </div>
 
                     {/* Stats */}

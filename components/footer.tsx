@@ -14,17 +14,7 @@ export function Footer() {
                         </h3>
                         <div className="space-y-3">
                             <Link
-                                href="https://docs.google.com/document/d/1nT8KROz_DpknunQSmrILRduJyN6ilIyasJG-bAY-QsU/edit?usp=drive_link"
-                                target="_blank"
-                                className="flex items-center gap-3 p-4 rounded-lg border border-border hover:border-primary/50 hover:bg-primary/5 transition-all group"
-                            >
-                                <FileText className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
-                                <span className="text-sm font-medium text-foreground">
-                                    Odluka o održavanju natjecanja
-                                </span>
-                            </Link>
-                            <Link
-                                href="https://docs.google.com/document/d/1tKBnTB1HlAMCwKXFPm1w7yS6f_2hgQzNyf2F1PFs6YI/edit?usp=drive_link"
+                                href="https://docs.google.com/document/d/1ozJd5pfSUSc74250P5bZoIZL1aBoLgHmVjMWKnouk0c/edit?usp=sharing"
                                 target="_blank"
                                 className="flex items-center gap-3 p-4 rounded-lg border border-border hover:border-primary/50 hover:bg-primary/5 transition-all group"
                             >
@@ -64,7 +54,8 @@ export function Footer() {
                 <div className="mt-12 pt-8 border-t border-border/40">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         <p className="text-sm text-muted-foreground">
-                            © 2025 NAP! - Natjecanje u Algoritamskom Programiranju
+                            © {new Date().getFullYear()} NAP! - Natjecanje u Algoritamskom
+                            Programiranju
                         </p>
                         <div className="flex items-center gap-6">
                             <Link
