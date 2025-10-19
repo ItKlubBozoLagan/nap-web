@@ -186,7 +186,12 @@ export const ResultsTable: FC<Properties> = ({ dataByContests }) => {
         data: dataByCategory,
         color,
         finalCall,
-    } = useMemo(() => dataByContests[selectedContest], [selectedContest]);
+    } = useMemo(() => {
+        if (selectedContest in dataByContests)
+            return dataByContests[selectedContest]
+
+        return dataByContests[Object.keys(dataByContests)[0]];
+    }, [dataByContests, selectedContest]);
 
     return (
         <>
