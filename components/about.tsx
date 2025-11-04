@@ -92,19 +92,19 @@ export function About() {
                                     <div className="flex items-center justify-between p-3 rounded-lg bg-primary/10">
                                         <span className="text-sm font-medium">Runda 1</span>
                                         <span className="text-sm text-muted-foreground">
-                                            18. 10. 2025.
+                                            18. 10. 2025. u 10:00
                                         </span>
                                     </div>
                                     <div className="flex items-center justify-between p-3 rounded-lg bg-primary/10">
                                         <span className="text-sm font-medium">Runda 2</span>
                                         <span className="text-sm text-muted-foreground">
-                                            8. 11. 2025.
+                                            8. 11. 2025. u 10:00
                                         </span>
                                     </div>
                                     <div className="flex items-center justify-between p-3 rounded-lg bg-primary/10">
                                         <span className="text-sm font-medium">Runda 3</span>
                                         <span className="text-sm text-muted-foreground">
-                                            12. 2025.
+                                            6. 12. 2025. u 10:00
                                         </span>
                                     </div>
                                     <div className="flex items-center justify-between p-3 rounded-lg bg-primary/10">
