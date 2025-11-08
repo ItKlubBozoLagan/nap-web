@@ -1,0 +1,680 @@
+{
+  "name": "Kolo 2",
+  "problems": [
+    "Pravokutnik",
+    "Djeljivost",
+    "Šaho šahić",
+    "Anđeli",
+    "Kaos",
+    "Trokut",
+    "Usamljenost"
+  ],
+  "data": [
+    {
+      "full_name": "Dario Smirčić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0,
+        "Anđeli": 0,
+        "Kaos": 0,
+        "Trokut": 0,
+        "Usamljenost": 0
+      },
+      "institution": "Osnovna škola Krune Krstića Zadar",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Lana Radošić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0
+      },
+      "institution": "Tehničko veleučilište u Zagrebu",
+      "category": "university"
+    },
+    {
+      "full_name": "Lovro Sambolec",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50,
+        "Anđeli": 70
+      },
+      "institution": "Druga gimnazija Varaždin",
+      "category": "high"
+    },
+    {
+      "full_name": "Ivo Pavičić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50,
+        "Anđeli": 70,
+        "Usamljenost": 110
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Kristijan Gašpar",
+      "score": {},
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Ante Peček",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Marin Meštrović",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50,
+        "Anđeli": 20
+      },
+      "institution": "Prirodoslovno-matematički fakultet",
+      "category": "university"
+    },
+    {
+      "full_name": "Mate Pastorčić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Luka Taslak",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50,
+        "Trokut": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Petar Filo",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0
+      },
+      "institution": "Tehnička škola Čakovec",
+      "category": "high"
+    },
+    {
+      "full_name": "Lucija Nosić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Martin Galin",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50
+      },
+      "institution": "Srednja škola Krapina",
+      "category": "high"
+    },
+    {
+      "full_name": "Natko Stjepan Ruždjak",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Tibor Andreani",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Gabriel Kos",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50,
+        "Anđeli": 20,
+        "Trokut": 0
+      },
+      "institution": "Osnovna škola Vjenceslava Novaka Zagreb",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Dario Sučevac",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50,
+        "Anđeli": 20
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Neva Ladavac",
+      "score": {},
+      "institution": "V. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Dominik Belavić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30
+      },
+      "institution": "Srednja škola \"Ivan Švear\" Ivanić Grad",
+      "category": "high"
+    },
+    {
+      "full_name": "Vito Popović",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Mihael Habek",
+      "score": {},
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Ozren Vili Paunović",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Martina Licul",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Lovro Novak",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0,
+        "Trokut": 0,
+        "Usamljenost": 0
+      },
+      "institution": "Osnovna škola Podturen",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Anđela Milanović",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0,
+        "Trokut": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Ingo Pavić",
+      "score": {
+        "Pravokutnik": 20,
+        "Šaho šahić": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Leona Fic",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0,
+        "Anđeli": 0
+      },
+      "institution": "Osnovna škola Ivana Gorana Kovačića Sveti Juraj na Bregu",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Jan Sven Bukovski",
+      "score": {},
+      "institution": "Tehnička škola Ruđera Boškovića Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Dario Vuksan",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50,
+        "Anđeli": 20,
+        "Trokut": 15
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Filip Udovčić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0
+      },
+      "institution": "Osnovna škola Josipovac",
+      "category": "elementary"
+    },
+    {
+      "full_name": "David Krznar",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0,
+        "Anđeli": 0,
+        "Kaos": 0,
+        "Trokut": 110,
+        "Usamljenost": 0
+      },
+      "institution": "Osnovna škola Ivana Gorana Kovačića Sveti Juraj na Bregu",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Dino Hadžić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50,
+        "Anđeli": 70,
+        "Kaos": 110,
+        "Trokut": 110,
+        "Usamljenost": 110
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Gabriel Teo Kaurić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0,
+        "Trokut": 0
+      },
+      "institution": "Tehnička škola Ruđera Boškovića Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Sven Obranović",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0,
+        "Anđeli": 0,
+        "Kaos": 0,
+        "Trokut": 0
+      },
+      "institution": "Osnovna škola Grabrik Karlovac",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Fran Babić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50,
+        "Anđeli": 70,
+        "Trokut": 110,
+        "Usamljenost": 110
+      },
+      "institution": "Prirodoslovno-matematički fakultet",
+      "category": "university"
+    },
+    {
+      "full_name": "Ivan Džanija",
+      "score": {},
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Andrija Lovaković",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Luka Grgurin",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0
+      },
+      "institution": "Gimnazija Dubrovnik",
+      "category": "high"
+    },
+    {
+      "full_name": "Niko Baotić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50,
+        "Anđeli": 70,
+        "Kaos": 0,
+        "Trokut": 110,
+        "Usamljenost": 110
+      },
+      "institution": "Gimnazija i ekonomska škola Benedikta Kotruljevića, s pravom javnosti",
+      "category": "high"
+    },
+    {
+      "full_name": "Maksim Stanković Šprajc",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50,
+        "Anđeli": 70,
+        "Usamljenost": 0
+      },
+      "institution": "Prva privatna gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Marin Ujević",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Luka Tuksar",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50,
+        "Usamljenost": 110
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Kristina Josipović",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30
+      },
+      "institution": "Pravni fakultet u Zagrebu",
+      "category": "university"
+    },
+    {
+      "full_name": "Igor Kozlinger",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Luka Draganović",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0
+      },
+      "institution": "Tehnička škola Ruđera Boškovića Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Luka Cerovečki",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Anđeli": 0
+      },
+      "institution": "Srednja škola Krapina",
+      "category": "high"
+    },
+    {
+      "full_name": "Borna Oršulić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50,
+        "Trokut": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Roko Müller",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30
+      },
+      "institution": "X. gimnazija Ivan Supek",
+      "category": "high"
+    },
+    {
+      "full_name": "Antonio Bogović",
+      "score": {},
+      "institution": "Gimnazija Velika Gorica",
+      "category": "high"
+    },
+    {
+      "full_name": "Matej Aščić",
+      "score": {},
+      "institution": "Gimnazija Matija Mesić",
+      "category": "high"
+    },
+    {
+      "full_name": "Ognjen Malinić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30
+      },
+      "institution": "Osnovna škola \"Dr. Franjo Tuđman\" Beli Manastir",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Šimun Ricov",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30
+      },
+      "institution": "Strukovna škola Vice Vlatkovića Zadar",
+      "category": "high"
+    },
+    {
+      "full_name": "Šimun Tomić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Ivan Radić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Petar Peljušić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0,
+        "Usamljenost": 110
+      },
+      "institution": "III. gimnazija Osijek",
+      "category": "high"
+    },
+    {
+      "full_name": "Zeta Hećimović Obradović",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Jakov Jandrić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50,
+        "Anđeli": 70,
+        "Usamljenost": 110
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Darko Patrčević",
+      "score": {},
+      "institution": "Osnovna škola Netretić",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Višen Pavlica",
+      "score": {},
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Ante Kačan",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30
+      },
+      "institution": "Tehnička škola Zadar",
+      "category": "high"
+    },
+    {
+      "full_name": "Jana Glavač",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Luka Milas",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Andriano Kralj",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30
+      },
+      "institution": "Gimnazija Dubrovnik",
+      "category": "high"
+    },
+    {
+      "full_name": "Filip Pleše",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0,
+        "Anđeli": 0
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Nikola Perčić Debeljuh",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 50,
+        "Anđeli": 70,
+        "Trokut": 15,
+        "Usamljenost": 110
+      },
+      "institution": "Gimnazija Pula",
+      "category": "high"
+    },
+    {
+      "full_name": "Mihael Kos",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0,
+        "Trokut": 0
+      },
+      "institution": "Tehnička škola Ruđera Boškovića Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Josip Tokić",
+      "score": {
+        "Pravokutnik": 20,
+        "Djeljivost": 30,
+        "Šaho šahić": 0,
+        "Anđeli": 0,
+        "Trokut": 0,
+        "Usamljenost": 0
+      },
+      "institution": "Osnovna škola Krune Krstića Zadar",
+      "category": "elementary"
+    }
+  ]
+}
