@@ -23,6 +23,16 @@ export function Footer() {
                                     Pravilnik o natjecanju
                                 </span>
                             </Link>
+                            <Link
+                                href="https://forms.gle/ZZRPHiwhELS2SVGL6"
+                                target="_blank"
+                                className="flex items-center gap-3 p-4 rounded-lg border border-border hover:border-primary/50 hover:bg-primary/5 transition-all group"
+                            >
+                                <FileText className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
+                                <span className="text-sm font-medium text-foreground">
+                                    Privola za maloljetne natjecatelje
+                                </span>
+                            </Link>
                         </div>
                     </div>
 
