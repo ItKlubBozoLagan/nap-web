@@ -10,7 +10,9 @@ type SeasonConfig = {
     roundCount: number;
 };
 
-const SEASON_CONFIGS = {
+export type Season = "2024/2025" | "2025/2026";
+
+const SEASON_CONFIGS: Record<Season, SeasonConfig> = {
     "2024/2025": {
         finalCall: {
             elementary: 7,
@@ -22,9 +24,7 @@ const SEASON_CONFIGS = {
     "2025/2026": {
         roundCount: 5,
     },
-} satisfies Record<string, SeasonConfig>;
-
-export type Season = keyof typeof SEASON_CONFIGS;
+};
 
 export const dataByContestsFromRaw = (season: Season, allResults: ContestData[]) => {
     const ALL_CONTESTS = allResults.map((it) => it.name);
