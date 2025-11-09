@@ -5,7 +5,28 @@ import {
     RawContestDataEntry,
 } from "@/lib/contestResults";
 
-export const dataByContestsFromRaw = (allResults: ContestData[]) => {
+type SeasonConfig = {
+    finalCall?: Record<EducationCategory, number>;
+    roundCount: number;
+};
+
+const SEASON_CONFIGS = {
+    "2024/2025": {
+        finalCall: {
+            elementary: 7,
+            high: 15,
+            university: 10,
+        },
+        roundCount: 5,
+    },
+    "2025/2026": {
+        roundCount: 5,
+    },
+} satisfies Record<string, SeasonConfig>;
+
+export type Season = keyof typeof SEASON_CONFIGS;
+
+export const dataByContestsFromRaw = (season: Season, allResults: ContestData[]) => {
     const ALL_CONTESTS = allResults.map((it) => it.name);
 
     const peopleBlacklist = ["Višen Pavlica", "Kristijan Gašpar"];
@@ -87,6 +108,8 @@ export const dataByContestsFromRaw = (allResults: ContestData[]) => {
         },
     };
 
+    const seasonConfig = SEASON_CONFIGS[season];
+
     const totalDataWithoutWorst = {
         problems: allResults.map((it) => it.name),
         data: {
@@ -96,16 +119,12 @@ export const dataByContestsFromRaw = (allResults: ContestData[]) => {
             university: processContestResults(filterOutWorst(collapseContestData("university"))),
         },
         color: true,
-        finalCall: {
-            elementary: 7,
-            high: 15,
-            university: 10,
-        } satisfies Record<EducationCategory, number>,
+        finalCall: seasonConfig.finalCall,
     };
 
     if (ALL_CONTESTS.length > 0) DataByContests["Ukupno"] = totalData;
 
-    if (ALL_CONTESTS.length > 1)
+    if (ALL_CONTESTS.length == seasonConfig.roundCount)
         DataByContests[`Ukupno (${ALL_CONTESTS.length - 1} najbolja)`] = totalDataWithoutWorst;
 
     return DataByContests;

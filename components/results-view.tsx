@@ -1,7 +1,7 @@
 import fg from "fast-glob";
 import fs from "fs";
 import { ContestData, ContestTableEntry, EducationCategory } from "@/lib/contestResults";
-import { dataByContestsFromRaw } from "@/lib/contests";
+import { dataByContestsFromRaw, Season } from "@/lib/contests";
 import { Category } from "@/lib/types";
 import { ResultsSelector } from "@/components/results-selector";
 
@@ -18,7 +18,7 @@ const allResults = Object.fromEntries(
         .map((file) => [file, JSON.parse(fs.readFileSync(file, { encoding: "utf-8" }))]),
 ) as Record<string, ContestData>;
 
-const seasonFolderMap = {
+const seasonFolderMap: Record<string, Season> = {
     "2024": "2024/2025",
     "2025": "2025/2026",
 };
@@ -36,11 +36,14 @@ const byYear = Object.entries(allResults)
             acc[season].push(data);
             return acc;
         },
-        {} as Record<string, ContestData[]>,
+        {} as Record<Season, ContestData[]>,
     );
 
 const byYearParsed = Object.fromEntries(
-    Object.entries(byYear).map(([name, data]) => [name, dataByContestsFromRaw(data)]),
+    Object.entries(byYear).map(([name, data]) => [
+        name,
+        dataByContestsFromRaw(name as Season, data),
+    ]),
 );
 
 export function ResultsView() {
