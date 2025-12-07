@@ -1,0 +1,482 @@
+{
+  "name": "Kolo 3",
+  "problems": [
+    "Pokloni 🎁",
+    "Kupovina 🛍️",
+    "(Ne)Prijateljstvo 🦌",
+    "Dobitak 🔔",
+    "Narodi ☃️",
+    "Pizza 🍕",
+    "Prijateljstvo 🧝"
+  ],
+  "data": [
+    {
+      "full_name": "Ante Kačan",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 0
+      },
+      "institution": "Tehnička škola Zadar",
+      "category": "high"
+    },
+    {
+      "full_name": "Luka Grgurin",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 0
+      },
+      "institution": "Gimnazija Dubrovnik",
+      "category": "high"
+    },
+    {
+      "full_name": "Gabriel Teo Kaurić",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50
+      },
+      "institution": "Tehnička škola Ruđera Boškovića Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Petar Filo",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 0
+      },
+      "institution": "Tehnička škola Čakovec",
+      "category": "high"
+    },
+    {
+      "full_name": "Martin Galin",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 0
+      },
+      "institution": "Srednja škola Krapina",
+      "category": "high"
+    },
+    {
+      "full_name": "Roko Müller",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50
+      },
+      "institution": "X. gimnazija Ivan Supek",
+      "category": "high"
+    },
+    {
+      "full_name": "Niko Baotić",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 70,
+        "Prijateljstvo 🧝": 50,
+        "Narodi ☃️": 110
+      },
+      "institution": "Gimnazija i ekonomska škola Benedikta Kotruljevića, s pravom javnosti",
+      "category": "high"
+    },
+    {
+      "full_name": "Lovro Penavin",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 70
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Jakov Jandrić",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 70,
+        "Prijateljstvo 🧝": 50,
+        "Pizza 🍕": 10,
+        "Narodi ☃️": 0
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Vito Popović",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Kristina Josipović",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30
+      },
+      "institution": "Pravni fakultet u Zagrebu",
+      "category": "university"
+    },
+    {
+      "full_name": "Domagoj Sertić",
+      "score": {},
+      "institution": "V. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Mihael Kos",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50
+      },
+      "institution": "Tehnička škola Ruđera Boškovića Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Josip Vojvoda",
+      "score": {
+        "Pokloni 🎁": 0
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Lovro Sambolec",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50
+      },
+      "institution": "Druga gimnazija Varaždin",
+      "category": "high"
+    },
+    {
+      "full_name": "Luka Tuksar",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Dino Hadžić",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 70,
+        "Prijateljstvo 🧝": 110,
+        "Pizza 🍕": 60,
+        "Narodi ☃️": 110
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Leon Žlender",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 0
+      },
+      "institution": "Osnovna škola \"Retfala\" Osijek",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Borna Oršulić",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Luka Cerovečki",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50
+      },
+      "institution": "Srednja škola Krapina",
+      "category": "high"
+    },
+    {
+      "full_name": "Mihael Habek",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 0,
+        "Pizza 🍕": 10
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Marin Ujević",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Jana Glavač",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Narodi ☃️": 110
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Filip Udovčić",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50
+      },
+      "institution": "Osnovna škola Josipovac",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Luka Milas",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Lovro Novak",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Pizza 🍕": 0
+      },
+      "institution": "Osnovna škola Podturen",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Dario Vuksan",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Prijateljstvo 🧝": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Luka Draganović",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 0
+      },
+      "institution": "Tehnička škola Ruđera Boškovića Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Marin Meštrović",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 70,
+        "Prijateljstvo 🧝": 50
+      },
+      "institution": "Prirodoslovno-matematički fakultet",
+      "category": "university"
+    },
+    {
+      "full_name": "Lucija Nosić",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Petar Peljušić",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 70,
+        "Prijateljstvo 🧝": 50,
+        "Narodi ☃️": 110
+      },
+      "institution": "III. gimnazija Osijek",
+      "category": "high"
+    },
+    {
+      "full_name": "Maksim Stanković Šprajc",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 70
+      },
+      "institution": "Prva privatna gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Mate Pastorčić",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Ivan Radić",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Dominik Rogić",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30
+      },
+      "institution": "Osnovna škola Galdovo Sisak",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Ivan Džanija",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Narodi ☃️": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Ante Peček",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 0
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Dario Sučevac",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Ivo Pavičić",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 70
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Antonio Matijević",
+      "score": {},
+      "institution": "Tehnička škola Požega",
+      "category": "high"
+    },
+    {
+      "full_name": "Linda Stojković",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30
+      },
+      "institution": "Osnovna škola Josipovac",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Hrvoje Valent",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 30,
+        "Prijateljstvo 🧝": 50,
+        "Pizza 🍕": 10,
+        "Narodi ☃️": 110
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Zoe Posokhova",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 70
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Ante Kelava",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30,
+        "(Ne)Prijateljstvo 🦌": 50,
+        "Dobitak 🔔": 0
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Filip Mlađenović",
+      "score": {
+        "Pokloni 🎁": 20,
+        "Kupovina 🛍️": 30
+      },
+      "institution": "Tehnička škola Ruđera Boškovića Zagreb",
+      "category": "high"
+    }
+  ]
+}
