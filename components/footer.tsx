@@ -46,15 +46,11 @@ export function Footer() {
                             <div className="p-4 rounded-lg border border-border">
                                 <p className="text-sm text-muted-foreground mb-2">Email</p>
                                 <Link
-                                    href="mailto:xfer.hr@gmail.com"
+                                    href="mailto:nap@xfer.hr"
                                     className="text-base font-medium text-primary hover:underline"
                                 >
-                                    xfer.hr@gmail.com
+                                    nap@xfer.hr
                                 </Link>
-                            </div>
-                            <div className="p-4 rounded-lg border border-border">
-                                <p className="text-sm text-muted-foreground mb-2">Organizator</p>
-                                <p className="text-base font-medium text-foreground">X.FER</p>
                             </div>
                         </div>
                     </div>
