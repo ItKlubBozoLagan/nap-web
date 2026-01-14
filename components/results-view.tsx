@@ -10,12 +10,20 @@ export type OneContestData = {
     data: Record<Category, ContestTableEntry[]>;
     color?: boolean;
     finalCall?: Record<EducationCategory, number>;
+    solutionsUrl?: string;
 };
 
 const allResults = Object.fromEntries(
     fg
         .sync("public/data/*/*.json")
-        .map((file) => [file, JSON.parse(fs.readFileSync(file, { encoding: "utf-8" }))]),
+        .map((file) => {
+            const data = JSON.parse(fs.readFileSync(file, { encoding: "utf-8" }));
+            const zipPath = file.replace(".json", ".zip");
+            if (fs.existsSync(zipPath)) {
+                data.solutionsUrl = zipPath.replace("public", "");
+            }
+            return [file, data];
+        }),
 ) as Record<string, ContestData>;
 
 const seasonFolderMap: Record<string, Season> = {

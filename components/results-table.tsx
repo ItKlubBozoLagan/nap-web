@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/table";
 import { EducationCategory } from "@/lib/contestResults";
 import { OneContestData } from "@/components/results-view";
+import { Download, FileDownIcon } from "lucide-react";
 
 type Properties = {
     dataByContests: Record<string, OneContestData>;
@@ -26,13 +27,13 @@ const categoryLabels: Record<Category, string> = {
     elementary: "Osnovne škole",
 };
 
-export const TableView: FC<OneContestData> = ({ problems, data, color, finalCall }) => {
+export const TableView: FC<OneContestData> = ({ problems, data, color, finalCall, solutionsUrl }) => {
     const [selectedCategory, setSelectedCategory] = useState<Category>("all");
 
     return (
         <>
             <Card className="p-6 border-border/50">
-                <div className="flex flex-wrap gap-3 justify-center">
+                <div className="flex flex-wrap gap-3 justify-center items-center">
                     {CATEGORY_LABELS.map((category) => (
                         <Button
                             key={category}
@@ -43,6 +44,17 @@ export const TableView: FC<OneContestData> = ({ problems, data, color, finalCall
                             {categoryLabels[category]}
                         </Button>
                     ))}
+                    {solutionsUrl && (
+                        <Button
+                            asChild
+                            className="min-w-[140px] bg-blue-700 hover:bg-blue-800 text-white"
+                        >
+                            <a href={solutionsUrl} download>
+                                <Download className="mr-2 h-4 w-4" />
+                                Rješenja
+                            </a>
+                        </Button>
+                    )}
                 </div>
             </Card>
 
@@ -97,12 +109,12 @@ export const TableView: FC<OneContestData> = ({ problems, data, color, finalCall
                                         className="hover:bg-primary/5"
                                         style={{
                                             ...(finalCall &&
-                                            index ===
+                                                index ===
                                                 finalCall[selectedCategory as EducationCategory]
                                                 ? { borderTop: "2px solid black" }
                                                 : {}),
                                             ...(finalCall &&
-                                            index < finalCall[selectedCategory as EducationCategory]
+                                                index < finalCall[selectedCategory as EducationCategory]
                                                 ? { backgroundColor: "rgba(0, 255, 0, 0.07)" }
                                                 : {}),
                                         }}
@@ -135,11 +147,11 @@ export const TableView: FC<OneContestData> = ({ problems, data, color, finalCall
                                             const cellStyle = color
                                                 ? isNull
                                                     ? {
-                                                          backgroundColor: "rgba(255, 0, 0, 0.13)",
-                                                      }
+                                                        backgroundColor: "rgba(255, 0, 0, 0.13)",
+                                                    }
                                                     : {
-                                                          backgroundColor: "rgba(0, 255, 0, 0.13)",
-                                                      }
+                                                        backgroundColor: "rgba(0, 255, 0, 0.13)",
+                                                    }
                                                 : {};
 
                                             return (
@@ -186,6 +198,7 @@ export const ResultsTable: FC<Properties> = ({ dataByContests }) => {
         data: dataByCategory,
         color,
         finalCall,
+        solutionsUrl,
     } = useMemo(() => {
         if (selectedContest in dataByContests)
             return dataByContests[selectedContest]
@@ -215,6 +228,7 @@ export const ResultsTable: FC<Properties> = ({ dataByContests }) => {
                 data={dataByCategory}
                 color={color}
                 finalCall={finalCall}
+                solutionsUrl={solutionsUrl}
             />
         </>
     );

@@ -34,7 +34,7 @@ export const dataByContestsFromRaw = (season: Season, allResults: ContestData[])
     const DataByContests = Object.fromEntries(
         allResults.map(
             (
-                { name, problems, data: rawData },
+                { name, problems, data: rawData, solutionsUrl },
                 _,
                 __,
                 data = rawData.filter((it) => !peopleBlacklist.includes(it.full_name)),
@@ -42,6 +42,7 @@ export const dataByContestsFromRaw = (season: Season, allResults: ContestData[])
                 name,
                 {
                     problems,
+                    solutionsUrl,
                     data: {
                         all: processContestResults(data),
                         elementary: processContestResults(
@@ -100,6 +101,7 @@ export const dataByContestsFromRaw = (season: Season, allResults: ContestData[])
 
     const totalData = {
         problems: allResults.map((it) => it.name),
+        solutionsUrl: undefined,
         data: {
             all: processContestResults(collapseContestData("all")),
             elementary: processContestResults(collapseContestData("elementary")),
@@ -112,6 +114,7 @@ export const dataByContestsFromRaw = (season: Season, allResults: ContestData[])
 
     const totalDataWithoutWorst = {
         problems: allResults.map((it) => it.name),
+        solutionsUrl: undefined,
         data: {
             all: processContestResults(filterOutWorst(collapseContestData("all"))),
             elementary: processContestResults(filterOutWorst(collapseContestData("elementary"))),

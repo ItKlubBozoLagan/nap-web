@@ -10,6 +10,7 @@ export type ContestData = {
     name: string;
     problems: string[];
     data: RawContestDataEntry[];
+    solutionsUrl?: string; 
 };
 
 export type ContestTableEntry = {
