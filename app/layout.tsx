@@ -6,8 +6,21 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://nap.xfer.hr"),
   title: "NAP! - Natjecanje u Algoritamskom Programiranju",
   description: "Individualno natjecanje u algoritamskom programiranju otvoreno za sve učenike i studente",
+  openGraph: {
+    title: "NAP! - Natjecanje u Algoritamskom Programiranju",
+    description: "Individualno natjecanje u algoritamskom programiranju otvoreno za sve učenike i studente",
+    url: "https://nap.xfer.hr",
+    siteName: "NAP!",
+    locale: "hr_HR",
+    type: "website",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
   generator: "v0.app",
 }
 

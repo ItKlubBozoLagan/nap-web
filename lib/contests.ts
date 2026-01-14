@@ -39,22 +39,22 @@ export const dataByContestsFromRaw = (season: Season, allResults: ContestData[])
                 __,
                 data = rawData.filter((it) => !peopleBlacklist.includes(it.full_name)),
             ) => [
-                name,
-                {
-                    problems,
-                    solutionsUrl,
-                    data: {
-                        all: processContestResults(data),
-                        elementary: processContestResults(
-                            data.filter((it) => it.category === "elementary"),
-                        ),
-                        high: processContestResults(data.filter((it) => it.category === "high")),
-                        university: processContestResults(
-                            data.filter((it) => it.category === "university"),
-                        ),
+                    name,
+                    {
+                        problems,
+                        solutionsUrl,
+                        data: {
+                            all: processContestResults(data),
+                            elementary: processContestResults(
+                                data.filter((it) => it.category === "elementary"),
+                            ),
+                            high: processContestResults(data.filter((it) => it.category === "high")),
+                            university: processContestResults(
+                                data.filter((it) => it.category === "university"),
+                            ),
+                        },
                     },
-                },
-            ],
+                ],
         ),
     );
 
