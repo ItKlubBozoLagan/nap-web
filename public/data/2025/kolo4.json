@@ -1,0 +1,391 @@
+{
+  "name": "Kolo 4",
+  "problems": [
+    "Led",
+    "Finale",
+    "Snijeg",
+    "Svjetionici",
+    "Cenzura",
+    "Dvoboj",
+    "Mateija"
+  ],
+  "data": [
+    {
+      "full_name": "Martin Galin",
+      "score": {
+        "Finale": 30,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Srednja škola Krapina",
+      "category": "high"
+    },
+    {
+      "full_name": "Ivo Pavičić",
+      "score": {
+        "Finale": 30,
+        "Mateija": 110,
+        "Svjetionici": 70,
+        "Snijeg": 50,
+        "Cenzura": 0,
+        "Led": 20
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Šimun Tomić",
+      "score": {
+        "Finale": 30,
+        "Mateija": 0,
+        "Svjetionici": 0,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Ingo Pavić",
+      "score": {
+        "Finale": 30,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Luka Cerovečki",
+      "score": {
+        "Finale": 30,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Srednja škola Krapina",
+      "category": "high"
+    },
+    {
+      "full_name": "Mihael Habek",
+      "score": {
+        "Finale": 30,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Karlo Božić",
+      "score": {
+        "Finale": 30,
+        "Mateija": 0,
+        "Svjetionici": 70,
+        "Dvoboj": 0,
+        "Snijeg": 50,
+        "Cenzura": 110,
+        "Led": 20
+      },
+      "institution": "Osnovna škola Tina Ujevića Zagreb",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Gabriel Teo Kaurić",
+      "score": {
+        "Finale": 30,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Tehnička škola Ruđera Boškovića Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Erik Kunić",
+      "score": {
+        "Finale": 30,
+        "Snijeg": 0,
+        "Led": 20
+      },
+      "institution": "Srednja škola Andrije Ljudevita Adamića",
+      "category": "high"
+    },
+    {
+      "full_name": "Luka Taslak",
+      "score": {
+        "Finale": 30,
+        "Svjetionici": 0,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Fran Sučija",
+      "score": {
+        "Finale": 30,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Marin Ujević",
+      "score": {
+        "Led": 20
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Maksim Stanković Šprajc",
+      "score": {
+        "Finale": 30,
+        "Svjetionici": 0,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Prva privatna gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Marko Zvonar",
+      "score": {
+        "Finale": 30,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Nikola Perčić Debeljuh",
+      "score": {
+        "Finale": 30,
+        "Svjetionici": 70,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Gimnazija Pula",
+      "category": "high"
+    },
+    {
+      "full_name": "Kristina Josipović",
+      "score": {
+        "Finale": 30,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Pravni fakultet u Zagrebu",
+      "category": "university"
+    },
+    {
+      "full_name": "Lovro Novak",
+      "score": {
+        "Finale": 30,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Osnovna škola Podturen",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Jakov Jandrić",
+      "score": {
+        "Finale": 30,
+        "Svjetionici": 70,
+        "Snijeg": 50,
+        "Cenzura": 20,
+        "Led": 20
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Ivan Džanija",
+      "score": {
+        "Finale": 30,
+        "Svjetionici": 70,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Luka Milas",
+      "score": {
+        "Finale": 30,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Karlo Čehulić",
+      "score": {
+        "Finale": 30,
+        "Svjetionici": 0,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Luka Grgurin",
+      "score": {
+        "Finale": 30,
+        "Svjetionici": 70,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Gimnazija Dubrovnik",
+      "category": "high"
+    },
+    {
+      "full_name": "Dario Sučevac",
+      "score": {
+        "Finale": 30,
+        "Svjetionici": 70,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Petar Filo",
+      "score": {
+        "Finale": 30,
+        "Svjetionici": 70,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Tehnička škola Čakovec",
+      "category": "high"
+    },
+    {
+      "full_name": "Lana Radošić",
+      "score": {
+        "Finale": 30,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Tehničko veleučilište u Zagrebu",
+      "category": "university"
+    },
+    {
+      "full_name": "Dominik Rogić",
+      "score": {
+        "Finale": 30,
+        "Led": 20
+      },
+      "institution": "Osnovna škola Galdovo Sisak",
+      "category": "elementary"
+    },
+    {
+      "full_name": "Dominik Belavić",
+      "score": {
+        "Finale": 30,
+        "Svjetionici": 0,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Srednja škola \"Ivan Švear\" Ivanić Grad",
+      "category": "high"
+    },
+    {
+      "full_name": "Dario Vuksan",
+      "score": {
+        "Finale": 30,
+        "Svjetionici": 70,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Fakultet elektrotehnike i računarstva",
+      "category": "university"
+    },
+    {
+      "full_name": "Vito Toševski",
+      "score": {
+        "Finale": 30,
+        "Svjetionici": 70,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "III. gimnazija Split",
+      "category": "high"
+    },
+    {
+      "full_name": "Filip Pleše",
+      "score": {
+        "Finale": 30,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Luka Tuksar",
+      "score": {
+        "Finale": 30,
+        "Svjetionici": 70,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Niko Baotić",
+      "score": {
+        "Finale": 30,
+        "Svjetionici": 70,
+        "Dvoboj": 0,
+        "Snijeg": 50,
+        "Cenzura": 0,
+        "Led": 20
+      },
+      "institution": "Gimnazija i ekonomska škola Benedikta Kotruljevića, s pravom javnosti",
+      "category": "high"
+    },
+    {
+      "full_name": "Jana Glavač",
+      "score": {
+        "Finale": 30,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Gimnazija Lucijana Vranjanina Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Dino Hadžić",
+      "score": {
+        "Finale": 30,
+        "Mateija": 110,
+        "Svjetionici": 70,
+        "Snijeg": 50,
+        "Cenzura": 110,
+        "Led": 20
+      },
+      "institution": "XV. gimnazija Zagreb",
+      "category": "high"
+    },
+    {
+      "full_name": "Marin Meštrović",
+      "score": {
+        "Finale": 30,
+        "Svjetionici": 70,
+        "Snijeg": 50,
+        "Led": 20
+      },
+      "institution": "Prirodoslovno-matematički fakultet",
+      "category": "university"
+    }
+  ]
+}
